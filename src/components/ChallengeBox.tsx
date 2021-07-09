@@ -13,7 +13,7 @@ export function ChallengeBox() {
     resetCountdown();
   }
 
-  function hndleChallengeFailed() {
+  function handleChallengeFailed() {
     resetChallenge();
     resetCountdown();
   }
@@ -34,7 +34,7 @@ export function ChallengeBox() {
             <button
               type="button"
               className={styles.challengeFailedButton} 
-              onClick={hndleChallengeFailed}
+              onClick={handleChallengeFailed}
             >
               Falhei
             </button>
